@@ -1,0 +1,97 @@
+/* Layout Responsivo */
+@media (max-width: 768px) {
+	nav ul {
+		flex-direction: column;
+		align-items: center;
+	}
+	nav li {
+	  margin-bottom: 1rem;
+  }
+  
+  footer {
+	position: static;
+  }
+}
+  :root{
+	--cor1: rgb(255, 205, 40);
+	--cor2: rgba(1, 30, 83, 0.8);
+	--cor3: rgb(6, 34, 196);
+	--cor4: #0b448e;
+	--cor5: rgb(9, 111, 179);
+  }
+  
+  *{
+	margin: 0px;
+	padding:0px;
+  }
+  
+  body{
+	margin-top: 60px;
+	font-family: "Reddit Sans", sans-serif;
+	background-image: url(../imagens/fundo.jpg);
+	background-size: cover;
+  }
+  
+  header{
+	text-align: center; 
+  }
+  
+  header h1{
+	color: var(--cor1);
+	font-family: "Reddit Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	font-size: 400%;
+	text-shadow:2px 25px 9px var(--cor5);
+  }
+  
+  header > p{
+	color: WHITE;
+	font-size: 2em;
+	padding-bottom: 20px;
+	padding-right: 10px;
+	padding-left: 10px
+  }
+  
+  .me-2 {
+	margin-right: .5rem !important;
+  }
+  
+  .vitrine{
+	margin-left: 25%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgb(255, 255, 255, 0.8);
+	border-radius: 10px;
+	width: 50%
+  }
+  
+  .btn{
+	margin-top: 30px;
+	border: none;
+	background-color: #1b1b1b;
+	margin-left: 10%;
+  }
+  
+  form{
+	padding: 30px 50px;
+	margin-bottom: 30px;
+  }
+  
+  footer{
+	margin-top: 30px;
+	display: flex;
+	color:white;
+	font-size: 15px; 
+	padding: 5px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  footer p{
+	background-color: var(--cor2);
+	padding: 10px;
+	border-radius: 5px;
+  }

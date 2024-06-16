@@ -1,0 +1,235 @@
+/* Layout Responsivo */
+@media (max-width: 768px) {
+  nav ul {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  nav li {
+      margin-bottom: 1rem;
+  }
+
+  footer {
+      position: static;
+  }
+}
+@charset "utf-8";
+:root{
+  --cor1: rgb(255, 205, 40);
+  --cor2: rgba(1, 30, 83, 0.8);
+  --cor3: rgb(6, 34, 196);
+  --cor4: #0b448e;
+  --cor5: rgb(9, 111, 179);
+}
+*{      
+  margin: 0px;
+  padding:0px;
+}
+
+
+
+body{   
+  font-family: "Reddit Sans", sans-serif;
+  background-image: url(../imagens/fundo.jpg);
+  background-size: cover;
+}
+
+.lado{
+ display:flex;
+
+}
+header{   
+  
+  text-align: center; 
+}
+
+header{
+  margin-top: 80px;
+}
+header > h1{
+  color: var(--cor1);       
+  font-family: "Reddit Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 400%;
+  text-shadow:2px 25px 9px var(--cor5);
+}
+header > p{
+  color: WHITE;
+  font-size: 2em;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  padding-left: 10px
+}
+main{
+  padding: 20px;
+  margin: 5px;
+  width: 96%;
+}
+main h2{
+  margin: 20px;
+  padding: 10px 50px;
+  color: rgb(231, 231, 231);
+  background-color: rgb(0, 0, 0, 0.8);
+  text-align: left;
+}
+.vitrine{
+  margin:auto;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 90%;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 25px;
+}
+#p1{
+  padding-left: 10px;
+  font-weight: bolder;
+  font-size: 1.2em;
+  margin-bottom: 0px;
+  margin-top: 0px;
+} 
+#p2{
+  font-size: 12px;
+  margin-top: 0px;
+  margin-bottom: 6px;
+}
+#p3{
+  font-weight: bolder;
+  color:rgb(162, 230, 37);
+  margin-bottom: -20px;
+}
+h6{
+  display: block;
+  margin-bottom: 250px
+}
+.grau{
+  width: 200px;
+  height: 400px;
+
+}
+#oculosf1 {
+  display: flex;
+  background-image: url('../imagens/oculosf1.png');
+  box-shadow: 2px 2px 2px rgb(84, 127, 247);
+  margin-bottom: 30px;
+  padding: 10px;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  font-size:15px;
+  color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#oculosf1:hover{
+  background-image: url('../imagens/oculosl1.png');
+}
+#oculosf2 {
+  display: flex;
+  background-image: url('../imagens/oculosf2.jpg');
+  box-shadow: 2px 2px 2px rgb(84, 127, 247);
+  margin-bottom: 30px;
+  padding: 10px;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  font-size:15px;
+  color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#oculosf2:hover{
+  background-image: url('../imagens/oculosl2.jpg');
+}
+#oculosf3 {
+  display: flex;
+  background-image: url('../imagens/oculosf3.jpg');
+  box-shadow: 2px 2px 2px rgb(84, 127, 247);
+  margin-bottom: 30px;
+  padding: 10px;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  font-size:15px;
+  color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#oculosf3:hover{
+  background-image: url('../imagens/oculosl3.jpg');
+}
+#oculosf4 {
+  display: flex;
+  background-image: url('../imagens/oculosf4.jpg');
+  box-shadow: 2px 2px 2px rgb(84, 127, 247);
+  margin-bottom: 30px;
+  padding: 10px;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  font-size:15px;
+  color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#oculosf4:hover{
+  background-image: url('../imagens/oculosl4.jpg');
+}
+#oculosf5 {
+  display: flex;
+  background-image: url('../imagens/oculosf5.jpg');
+  box-shadow: 2px 2px 2px rgb(84, 127, 247);
+  margin-bottom: 30px;
+  padding: 10px;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  font-size:15px;
+  color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#oculosf5:hover{
+  background-image: url('../imagens/oculosl5.jpg');
+}
+#oculosf6 {
+  display: flex;
+  background-image: url('../imagens/oculosf6.jpg');
+  box-shadow: 2px 2px 2px rgb(84, 127, 247);
+  margin-bottom: 30px;
+
+  padding: 10px;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  font-size:15px;
+  color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#oculosf6:hover{
+  background-image: url('../imagens/oculosl6.2.jpg');
+}
+footer{
+  display: flex;
+  color:white;
+  font-size: 15px; 
+  padding: 5px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+footer p{
+  background-color: var(--cor2);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+
+
+
+

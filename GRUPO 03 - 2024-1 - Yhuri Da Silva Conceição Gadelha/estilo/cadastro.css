@@ -1,0 +1,117 @@
+/* Layout Responsivo */
+@media (max-width: 768px) {
+  nav ul {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  nav li {
+      margin-bottom: 1rem;
+  }
+
+  footer {
+      position: static;
+  }
+}
+@charset "utf-8";
+:root{
+  --cor1: rgb(255, 205, 40);
+  --cor2: rgba(1, 30, 83, 0.8);
+  --cor3: rgb(6, 34, 196);
+  --cor4: #0b448e;
+  --cor5: rgb(9, 111, 179);
+}
+body{ 
+  margin-top: 60px;  
+  font-family: "Reddit Sans", sans-serif;
+  background-image: url(../imagens/fundo.jpg);
+  background-size: cover;
+  border-top: 0;
+  height: 100vh;
+}
+header{   
+  text-align: center; 
+}
+
+header > h1{
+  color: var(--cor1);       
+  font-family: "Reddit Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 400%;
+  text-shadow:2px 25px 9px var(--cor5);
+}
+header > p{
+  color: WHITE;
+  font-size: 2em;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  padding-left: 10px
+}
+
+#cadastro{
+ text-align: center;
+ font-weight: bolder;
+ font-size: 40px;
+ padding: 15px;
+ margin-left: 30px;
+}
+form h3{
+  font-size: 2em;
+  padding-top: 15px;
+}
+.vitrine{
+  margin: 20px auto;
+  display: flex;
+  width: 60%;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(255, 255, 255, 0.8);
+}
+.labeldiv{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+label{
+  margin:20px 10px;
+  color: black;
+  padding: 5px;
+  min-width: 50px;
+  font-size: 1.3em;
+}
+input{
+  margin: 08px 2px;
+  border-radius: 3px;
+  border: 2px solid #ccc; 
+  height: 25px;
+  text-align: justify; 
+ 
+}
+.botoesdiv{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#botoes{
+  font-size: large;
+  padding: 6px;
+  margin: 10px;
+  border-radius: 4px;
+}
+footer{
+  display: flex;
+  color:white;
+  font-size: 15px; 
+  padding: 5px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+footer p{
+  background-color: var(--cor2);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
